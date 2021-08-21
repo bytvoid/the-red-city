@@ -178,16 +178,16 @@ const onMouseMove = (event) => {
 const onDocumentTouchStart = (event) => {
   if (event.touches.length === 1) {
     event.preventDefault();
-    mouse.x = event.touches[ 0 ].pageX -  window.innerWidth / 2;
-    mouse.y = event.touches[ 0 ].pageY - window.innerHeight / 2;
+    mouse.x = event.touches[0].pageX -  window.innerWidth / 2;
+    mouse.y = event.touches[0].pageY - window.innerHeight / 2;
   };
 };
 
 const onDocumentTouchMove = (event) => {
   if (event.touches.length === 1) {
     event.preventDefault();
-    mouse.x = event.touches[ 0 ].pageX -  window.innerWidth / 2;
-    mouse.y = event.touches[ 0 ].pageY - window.innerHeight / 2;
+    mouse.x = event.touches[0].pageX -  window.innerWidth / 2;
+    mouse.y = event.touches[0].pageY - window.innerHeight / 2;
   }
 }
 
