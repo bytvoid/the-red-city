@@ -167,8 +167,7 @@ const init = () => {
 };
 
 const raycaster = new THREE.Raycaster();
-const mouse = new THREE.Vector2(), INTERSECTED;
-const intersected;
+const mouse = new THREE.Vector2();
 
 const onMouseMove = (event) => {
   event.preventDefault();
